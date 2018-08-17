@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/villam"
+    android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnStart_OnClick"
+            />
+        <Button
+            android:id="@+id/bStopp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stopp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnStopp_onClick"/>
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
